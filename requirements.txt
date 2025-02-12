@@ -1,7 +1,6 @@
 qiskit==1.3.2
 qiskit-aer==0.16.1
 streamlit==1.42.0
-streamlit==1.42.0
 qiskit[visualization]
 rustworkx>=0.15.0
 symengine<0.14,>=0.11
