@@ -77,7 +77,7 @@ def chat_qrng() -> None:
             if user_question in qa_data["questions"]:
                 response = qa_data["questions"][user_question]
             else:
-                response = "Aún no puedo responder preguntas abiertas. Pero sí puedo responder a estas preguntas:"
+                response = "Hi! I'm still learning and I can't answer open questions. But I can answer these questions:"
 
             st.session_state.chat_history.append({"role": "assistant", "content": response})
             st.session_state["pending_response"] = None
