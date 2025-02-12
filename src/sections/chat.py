@@ -42,7 +42,7 @@ def chat_qrng() -> None:
         if not st.session_state.chat_history:
             st.session_state.chat_history.append({
                 "role": "assistant",
-                "content": "¡Hola! Aún estoy aprendiendo y no puedo responder preguntas abiertas. Pero puedo responder a estas preguntas:"
+                "content": "Hi! I'm still learning and I can't answer open questions. But I can answer these questions:"
             })
 
         selected_question = None
