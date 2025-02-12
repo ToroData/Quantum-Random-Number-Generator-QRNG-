@@ -1,0 +1,22 @@
+{
+  "title": "Quantum Random Number Generator (QRNG)",
+
+  "visual_toggle": "Show quantum visualizations",
+  "visual_bloch": "**Visualizing the Bloch sphere**",
+  "visual_bloch_desc": "The Bloch sphere is a geometric representation of the quantum state of a qubit. It provides an intuitive way to visualize the superposition and entanglement of qubits. In particular, in the visualization below you can see how the selected Qubits have been put into superposition.",
+  "visual_transition": "**Quantum State Evolution**",
+  "visual_transition_desc": "The evolution of a quantum state is a fundamental concept in quantum mechanics. It describes how the state of a quantum system changes over time. In the visualization below, you can observe the evolution of the quantum state of the Qubit by applying the Hadamard gate to the initial state.",
+  "visual_transition_caption": "Evolution of the Quantum State",
+
+  "key_header": "**Generated Quantum Key**",
+  "key_header_toggle": "Show Generated Key Description",
+  "key_desc": "Here is the key generated after measuring the qubits.\nEach bit is the result of quantum collapse after superposition.",
+
+  "datagram_header": "**Division into 4-Bit Packets**",
+  "datagram_header_desc": "Show Datagram Description",
+  "datagram_desc": "In computing and telecommunications, it is common to divide data into bit packets called **datagrams**.\nHere, we group the bits into **4-bit** blocks to facilitate conversion into decimal numbers.",
+
+  "decimal_header": "**Key in Decimal**",
+  "decimal_header_desc": "Show Decimal Key Description",
+  "decimal_desc": "Each **4-bit** block is converted into a decimal number, forming the final key.\nThis allows numbers to be represented more compactly and usefully in cryptographic applications."
+}
