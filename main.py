@@ -18,6 +18,7 @@ texts = config.load_texts()
 qa_data = config.load_questions()
 
 # Title
+st.set_page_config(page_title="QRNG", page_icon="🔬", layout="wide")
 st.title(texts["title"])
 
 # First Section
